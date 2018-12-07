@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Central Europe Game</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+    
+  </head>
+ 
+  <body>
+
+ <div class="MainContainer">
+    <!--MainContainer keeping the scoreboard boxed/orgniazed-->
+    <div class="jumbotron">
+        <h1>Central European Countries</h1>
+    </div>
+
+    <div class="container">
+    <!--Title/Introduction-->
+        <h2>Press Any Key To Start the Game!</h2>
+        <h3>How many Central European Countries Can You Guess?</h3>
+    <!--GIF picture source-->   
+        <img id="image" src="assets/Images/Europe-GIF.webp" width="25%" height="60%">
+       
+    
+    <!--Game Scoreboard-->
+    
+    <!--will display the correct letters and correct answer-->
+    <h4>Name a Country</h4>
+    <div id="NameCountry"></div>
+    <!--will display a +1 score everytime a word is guessed-->
+    <h4>Winner! You sure know your geography!</h4>
+    <div id="WinsTracker"></div>
+    <!--Counts down how many guessed you have left, starting from 10-->
+    <h4>You have 10 lives, that's more than your cat</h4>
+    <div id="GuessesRemaining"></div>
+    <!--will show all the incorrect letters guessed-->
+    <h4>Definitely not THIS letter:</h4>
+    <div id="LettersGuessed"></div>
+    </div>
+
+</div>  
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+<script src="assets/javascript/game.js"></script>
+
+  </body>
+</html>

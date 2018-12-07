@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC:400,700');
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+
+
+body {
+    background: url(https://images.pexels.com/photos/1646178/pexels-photo-1646178.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    height: 100vh;
+    text-align: center;
+    background-size: cover;
+}
+.container {
+    margin: auto;
+    font-family: 'Amatic SC', cursive;
+
+}
+
+.jumbotron {
+    font-family: 'Fredericka the Great', cursive;
+    font-style: oblique;
+    background: url(https://images.pexels.com/photos/269801/pexels-photo-269801.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-size: cover;   
+}
+
+.MainContainer {
+    background-color: rgb(242, 198, 232);
+    margin-top: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 5px;
+    text-align: center;
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+    border-image: initial;
+}
+
+#NameCountry {
+    letter-spacing: 10px;
+
+}
